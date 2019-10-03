@@ -1,24 +1,5 @@
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+title: TEMET NOSCE
+description: Discover the truth on the path to find thyself...
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-midnight
