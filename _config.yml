@@ -3,3 +3,23 @@ description: Discover the truth on the path to find thyself...
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
+
+collections:
+  tags:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

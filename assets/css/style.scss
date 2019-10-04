@@ -2,11 +2,5 @@
 ---
 
 @import "{{ site.theme }}";
-
-section {
-    margin-top: 20px;
-
-    #title h1 {
-        font-family: 'Zeyada', cursive;
-    } 
-}
+@import "tag";
+@import "main";
