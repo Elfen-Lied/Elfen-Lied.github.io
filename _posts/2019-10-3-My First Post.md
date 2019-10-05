@@ -1,5 +1,5 @@
 ---
-tag: jekyll
+tags: [ jekyll, blog ]
 ---
 An apple is a sweet, edible fruit produced by an apple tree.
 
